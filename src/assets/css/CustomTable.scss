@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+table { 
+  border-collapse: collapse; 
+  width: 100%
+} 
+th { 
+  color:#3B4557;
+  font-size: 14px; 
+  font-weight: 600;
+}
+tr:first-child th:first-child { border-top-left-radius: 15px;  border-bottom-left-radius: 15px;border-left:1px solid #707070;}
+tr:first-child th:last-child { border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-right:1px solid #707070;}
+
+
+tr td:first-child { border-top-left-radius: 15px;  border-bottom-left-radius: 15px;border-left:1px solid rgba(112,112,112,0.5);}
+tr td:last-child { border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-right:1px solid rgba(112,112,112,0.5);}
+tr td{
+  border-top:1px solid rgba(112,112,112,0.5); 
+  border-bottom:1px solid rgba(112,112,112,0.5); }
+th, td { 
+  text-align:center; 
+  border-top:1px solid #707070; 
+  border-bottom:1px solid #707070; 
+  padding: 10px;
+
+} 
+.product-info { 
+  border-right:hidden; 
+  min-width: 260px;
+  text-align: left;
+} 
+.gfg { 
+  border-collapse:separate; 
+  border-spacing:0 15px; 
+} 
+
+.row-text{
+  font-size: 16px;
+}
